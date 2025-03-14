@@ -1,0 +1,81 @@
+14 mar. 2025 13:15:51,601 INFO  org.example.CarsDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersMadaDocumentscars.db} 
+14 mar. 2025 13:15:51,617 TRACE org.example.CarsDBRepository 86 add - Enter saving car Id=0 Tesla Model S 2019 
+14 mar. 2025 13:15:51,619 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:15:51,619 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+14 mar. 2025 13:15:51,619 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:UsersMadaDocumentscars.db
+14 mar. 2025 13:15:51,620 INFO  org.example.JdbcUtils 31 getNewConnection - user: null
+14 mar. 2025 13:15:51,621 INFO  org.example.JdbcUtils 32 getNewConnection - pass: null
+14 mar. 2025 13:15:52,574 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54a7079e)
+14 mar. 2025 13:15:52,584 ERROR org.example.CarsDBRepository 95 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:15:52,585 TRACE org.example.CarsDBRepository 102 update - Enter Updating car with id 1 to new values Id=0 Tesla Model 3 2020
+14 mar. 2025 13:15:52,585 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:15:52,586 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54a7079e)
+14 mar. 2025 13:15:52,586 ERROR org.example.CarsDBRepository 114 update - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:15:52,586 TRACE org.example.CarsDBRepository 121 findAll - Enter
+14 mar. 2025 13:15:52,586 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:15:52,588 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54a7079e)
+14 mar. 2025 13:15:52,588 ERROR org.example.CarsDBRepository 137 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:15:52,589 TRACE org.example.CarsDBRepository 140 findAll - Exit with([])
+14 mar. 2025 13:15:52,589 TRACE org.example.CarsDBRepository 29 findByManufacturer - Enter Cars by manufacturer Tesla
+14 mar. 2025 13:15:52,589 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:15:52,590 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54a7079e)
+14 mar. 2025 13:15:52,590 ERROR org.example.CarsDBRepository 48 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:15:52,591 TRACE org.example.CarsDBRepository 51 findByManufacturer - Exit with([])
+14 mar. 2025 13:15:52,591 TRACE org.example.CarsDBRepository 57 findBetweenYears - Enter Cars between years 2010 and 2020
+14 mar. 2025 13:15:52,591 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:15:52,591 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54a7079e)
+14 mar. 2025 13:15:52,592 ERROR org.example.CarsDBRepository 77 findBetweenYears - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:15:52,593 TRACE org.example.CarsDBRepository 80 findBetweenYears - Exit with([])
+14 mar. 2025 13:22:27,752 INFO  org.example.CarsDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersMadaDocumentscars.db} 
+14 mar. 2025 13:22:27,770 TRACE org.example.CarsDBRepository 86 add - Enter saving car Id=0 Tesla Model S 2019 
+14 mar. 2025 13:22:27,771 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:22:27,772 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+14 mar. 2025 13:22:27,772 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:UsersMadaDocumentscars.db
+14 mar. 2025 13:22:27,772 INFO  org.example.JdbcUtils 31 getNewConnection - user: null
+14 mar. 2025 13:22:27,773 INFO  org.example.JdbcUtils 32 getNewConnection - pass: null
+14 mar. 2025 13:22:28,271 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@26e356f0)
+14 mar. 2025 13:22:28,281 ERROR org.example.CarsDBRepository 95 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:22:28,282 TRACE org.example.CarsDBRepository 102 update - Enter Updating car with id 1 to new values Id=0 Tesla Model 3 2020
+14 mar. 2025 13:22:28,283 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:22:28,284 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@26e356f0)
+14 mar. 2025 13:22:28,285 ERROR org.example.CarsDBRepository 114 update - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:22:28,285 TRACE org.example.CarsDBRepository 121 findAll - Enter
+14 mar. 2025 13:22:28,286 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:22:28,286 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@26e356f0)
+14 mar. 2025 13:22:28,289 ERROR org.example.CarsDBRepository 137 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:22:28,290 TRACE org.example.CarsDBRepository 140 findAll - Exit with([])
+14 mar. 2025 13:22:28,291 TRACE org.example.CarsDBRepository 29 findByManufacturer - Enter Cars by manufacturer Tesla
+14 mar. 2025 13:22:28,292 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:22:28,292 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@26e356f0)
+14 mar. 2025 13:22:28,293 ERROR org.example.CarsDBRepository 48 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:22:28,294 TRACE org.example.CarsDBRepository 51 findByManufacturer - Exit with([])
+14 mar. 2025 13:22:28,295 TRACE org.example.CarsDBRepository 57 findBetweenYears - Enter Cars between years 2010 and 2020
+14 mar. 2025 13:22:28,295 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:22:28,296 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@26e356f0)
+14 mar. 2025 13:22:28,298 ERROR org.example.CarsDBRepository 77 findBetweenYears - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+14 mar. 2025 13:22:28,300 TRACE org.example.CarsDBRepository 80 findBetweenYears - Exit with([])
+14 mar. 2025 13:23:17,840 INFO  org.example.CarsDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\Mada\Documents\cars.db} 
+14 mar. 2025 13:23:17,861 TRACE org.example.CarsDBRepository 86 add - Enter saving car Id=0 Tesla Model S 2019 
+14 mar. 2025 13:23:17,862 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:23:17,863 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+14 mar. 2025 13:23:17,863 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Mada\Documents\cars.db
+14 mar. 2025 13:23:17,864 INFO  org.example.JdbcUtils 31 getNewConnection - user: null
+14 mar. 2025 13:23:17,865 INFO  org.example.JdbcUtils 32 getNewConnection - pass: null
+14 mar. 2025 13:23:18,291 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@201a4587)
+14 mar. 2025 13:23:18,325 TRACE org.example.CarsDBRepository 93 add - Saved 1 instances
+14 mar. 2025 13:23:18,326 TRACE org.example.CarsDBRepository 102 update - Enter Updating car with id 1 to new values Id=0 Tesla Model 3 2020
+14 mar. 2025 13:23:18,327 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:23:18,328 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@201a4587)
+14 mar. 2025 13:23:18,341 TRACE org.example.CarsDBRepository 112 update - Updated 1 instances
+14 mar. 2025 13:23:18,342 TRACE org.example.CarsDBRepository 121 findAll - Enter
+14 mar. 2025 13:23:18,342 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:23:18,343 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@201a4587)
+14 mar. 2025 13:23:18,348 TRACE org.example.CarsDBRepository 140 findAll - Exit with([Id=1 Tesla Model 3 2020, Id=2 Opel Corsa 2007, Id=3 Hyundai ix35 2020, Id=4 Dacia Logan 2004, Id=5 Skoda Octavia 2012, Id=6 Tesla Model S 2019])
+14 mar. 2025 13:23:18,349 TRACE org.example.CarsDBRepository 29 findByManufacturer - Enter Cars by manufacturer Tesla
+14 mar. 2025 13:23:18,350 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:23:18,350 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@201a4587)
+14 mar. 2025 13:23:18,351 TRACE org.example.CarsDBRepository 51 findByManufacturer - Exit with([Id=1 Tesla Model 3 2020, Id=6 Tesla Model S 2019])
+14 mar. 2025 13:23:18,351 TRACE org.example.CarsDBRepository 57 findBetweenYears - Enter Cars between years 2010 and 2020
+14 mar. 2025 13:23:18,352 TRACE org.example.JdbcUtils 48 getConnection - Enter
+14 mar. 2025 13:23:18,353 TRACE org.example.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@201a4587)
+14 mar. 2025 13:23:18,353 TRACE org.example.CarsDBRepository 80 findBetweenYears - Exit with([Id=1 Tesla Model 3 2020, Id=3 Hyundai ix35 2020, Id=5 Skoda Octavia 2012, Id=6 Tesla Model S 2019])

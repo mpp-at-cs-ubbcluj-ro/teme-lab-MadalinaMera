@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="DB_project" target="23" />
+      <module name="DB_project.main" target="23" />
+      <module name="DB_project.test" target="23" />
       <module name="Lab1" target="23" />
       <module name="Lab1.main" target="23" />
       <module name="Lab1.test" target="23" />
